@@ -36,6 +36,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
 Plugin 'Raimondi/delimitMate'
+Plugin 'Valloric/YouCompleteMe'
 
 
 " All of your Plugins must be added before the following line
