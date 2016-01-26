@@ -36,6 +36,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
 Plugin 'Raimondi/delimitMate'
+Plugin 'AutoComplPop'
 Plugin 'Valloric/YouCompleteMe'
 
 
