@@ -10,34 +10,23 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/base16-vim'
 Plugin 'danro/rename.vim'
 Plugin 'ekalinin/Dockerfile.vim'
-Plugin 'godlygeek/tabular'
+Plugin 'godlygeek/tabular'			"对齐工具
 Plugin 'gorkunov/smartpairs.vim'
-Plugin 'int3/vim-extradite'
-Plugin 'kien/ctrlp.vim'
-Plugin 'lilydjwg/colorizer'
-Plugin 'msanders/snipmate.vim'
-Plugin 'rking/ag.vim'
+Plugin 'lilydjwg/colorizer'			"颜色
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-abolish'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-rails'
-Plugin 'vim-scripts/matchit.zip'
-Plugin 'Yggdroot/indentLine'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-surround'
-Plugin 'Raimondi/delimitMate'
-Plugin 'AutoComplPop'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'			"树导航
+Plugin 'scrooloose/syntastic'			"语法检测
+Plugin 'terryma/vim-multiple-cursors'		"多输入点
+Plugin 'tpope/vim-surround'			"包裹符号替换
+Plugin 'Yggdroot/indentLine'			"显示缩进对齐线
+Plugin 'Raimondi/delimitMate'			"自动添加闭合的引号、括号、大括号
+Plugin 'AutoComplPop'				"提示弹窗
+Plugin 'nsf/gocode', {'rtp': 'vim/'}		"golang代码提示
+Plugin 'Valloric/YouCompleteMe'			"代码提示
 
 
 " All of your Plugins must be added before the following line
